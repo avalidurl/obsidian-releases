@@ -96,7 +96,7 @@ jobs:
             })();
       - run: |
           git config --local user.name 'Obsidian Bot'
-          git config --local user.email 'admin@obsidian.md'
+          git config --local user.email 'contact@gokhan.vc'
           git add .
           git commit -m "chore: Update plugin stats"
           git push

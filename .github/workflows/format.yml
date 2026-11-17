@@ -18,7 +18,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --local user.name 'Obsidian Bot'
-          git config --local user.email 'admin@obsidian.md'
+          git config --local user.email 'contact@gokhan.vc'
           git add .
           git commit -m "chore: Format JSON" || exit 0
           git push
